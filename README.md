@@ -12,8 +12,9 @@ Ich freue mich über Hinweise und Kritiken.
 ## Anforderungen ##
 
 
-* JQuery 1.3.1
-* Spezifische Markup-Struktur:
+* JQuery 1.3.1-Framework einbinden
+* JavaScript-Klasse einbinden
+* Spezifische Markup-Struktur erstellen, um darauf die Tabs zu erzeugen:
 
 ```
 <p class="tab">Erster Absatz/Tab</p>
@@ -66,12 +67,12 @@ Passen Sie zuletzt optional das CSS entsprechend an.
 
 
 
-Bezeichner                      |   Standard-Wert oder Beispiel                 |   Erklärung
-----------                      |   ---------------------------                 |   --------- 
-tabSelector                     |   ".tab" (String)                             |   Geben Sie einen CSS-Klassen-Selektor für die Elemente, aus denen die Tabs generiert werden. 
-tabActive                       |   0 (Integer)                                 |   Geben Sie eine Nummer für den aktiven Tab an.  
-tabNameDefault                  |   "Tab " (String)                             |   Standard-Name (Label) für den Tab
-tabNameArr                      |   new Array('1.', '2.', '3.', '4.') (Array)   |   Name (Label) für die einzelnen Tabs
+Bezeichner                      |   Standard-Wert oder Beispiel         | Datentyp | Erklärung
+----------                      |   ---------------------------         | -------- | --------- 
+tabSelector                     |   ".tab"                              | String   | Geben Sie einen CSS-Klassen-Selektor für die Elemente, aus denen die Tabs generiert werden. 
+tabActive                       |   0                                   | Integer  | Geben Sie eine Nummer für den aktiven Tab an.  
+tabNameDefault                  |   "Tab "                              | String   |   Standard-Name (Label) für den Tab
+tabNameArr                      |   new Array('1.', '2.', '3.', '4.')   | Array    |   Name (Label) für die einzelnen Tabs
 
 
 ## Lizenz ##
